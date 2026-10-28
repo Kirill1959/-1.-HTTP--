@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const API_URL = '**/jsonplaceholder.typicode.com/users';
+const API_URL = 'https://http.hexlet.app/http-api/users';
 
 // Нужен, потому что страница на localhost, а API на другом домене.
 // Без этого заголовка браузер заблокирует подменённый ответ (CORS).
